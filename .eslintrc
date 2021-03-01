@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": [
+    "@trejgun/eslint-config/presets/js",
+    "@trejgun/eslint-config/rules/mocha"
+  ],
+  "parserOptions": {
+    "babelOptions": {
+      "configFile": "./.babelrc"
+    }
+  }
+}

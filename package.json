@@ -1,0 +1,81 @@
+{
+  "author": {
+    "email": "relvao@gmail.com",
+    "name": "Tiago Relvao"
+  },
+  "bugs": {
+    "url": "https://github.com/TrejGun/trejgun-mongoose-versions"
+  },
+  "contributors": [
+    {
+      "email": "TrejGun+OpenSource@gmail.com",
+      "name": "TrejGun"
+    },
+    {
+      "name": "Peter Kadlot"
+    },
+    {
+      "name": "Rob McCardle"
+    }
+  ],
+  "dependencies": {
+    "debug": "4.1.1"
+  },
+  "description": "Mongoose plugin to save old versions of saved documents",
+  "devDependencies": {
+    "@babel/cli": "7.13.0",
+    "@babel/core": "7.13.8",
+    "@babel/eslint-parser": "7.13.8",
+    "@babel/eslint-plugin": "7.13.0",
+    "@babel/preset-env": "7.13.8",
+    "@babel/register": "7.13.8",
+    "@trejgun/eslint-config": "0.1.2",
+    "babel-plugin-istanbul": "5.2.0",
+    "eslint": "7.21.0",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-config-standard": "16.0.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-mocha": "8.0.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-promise": "4.3.1",
+    "eslint-plugin-standard": "4.1.0",
+    "husky": "4.3.8",
+    "lint-staged": "10.5.4",
+    "mocha": "8.3.0",
+    "mongoose-text-search": "0.0.2",
+    "nyc": "15.1.0",
+    "prettier": "2.2.1"
+  },
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
+  "homepage": "https://github.com/TrejGun/trejgun-mongoose-versions#readme",
+  "keywords": [
+    "mongoose",
+    "plugin",
+    "version"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./src/index.js",
+  "name": "@trejgun/mongoose-versions",
+  "peerDependencies": {
+    "mongoose": "5.11.18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TrejGun/trejgun-mongoose-versions.git"
+  },
+  "scripts": {
+    "build": "babel -d ./dist ./src --delete-dir-on-start",
+    "coverage": "nyc npm run test",
+    "lint": "eslint . --fix",
+    "prepare": "npm run build",
+    "test": "NODE_ENV=test mocha"
+  },
+  "sideEffects": false,
+  "title": "-=Mongoose Versions=-",
+  "version": "1.1.2"
+}

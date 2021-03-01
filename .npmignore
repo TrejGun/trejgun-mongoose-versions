@@ -1,0 +1,6 @@
+test
+examples
+.idea
+*.tgz
+*~
+.travis.yml

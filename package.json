@@ -62,7 +62,7 @@
   "module": "./src/index.js",
   "name": "@trejgun/mongoose-versions",
   "peerDependencies": {
-    "mongoose": "5.11.18"
+    "mongoose": "5.11.19"
   },
   "repository": {
     "type": "git",

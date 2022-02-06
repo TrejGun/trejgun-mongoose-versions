@@ -1,8 +1,8 @@
 {
   "root": true,
   "extends": [
-    "@trejgun/eslint-config/presets/js",
-    "@trejgun/eslint-config/rules/mocha"
+    "@gemunion/eslint-config/presets/js",
+    "@gemunion/eslint-config/rules/mocha"
   ],
   "parserOptions": {
     "babelOptions": {

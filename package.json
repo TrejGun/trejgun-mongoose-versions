@@ -9,7 +9,8 @@
   "contributors": [
     {
       "email": "TrejGun+OpenSource@gmail.com",
-      "name": "TrejGun"
+      "name": "TrejGun",
+      "url": "https://gemunion.io/"
     },
     {
       "name": "Peter Kadlot"
@@ -29,7 +30,7 @@
     "@babel/eslint-plugin": "7.16.5",
     "@babel/preset-env": "7.16.11",
     "@babel/register": "7.17.0",
-    "@trejgun/eslint-config": "0.1.7",
+    "@gemunion/eslint-config": "1.0.1",
     "babel-plugin-istanbul": "6.1.1",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
@@ -38,11 +39,11 @@
     "eslint-plugin-mocha": "8.2.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-prettier": "3.4.1",
-    "eslint-plugin-promise": "5.2.0",
-    "eslint-plugin-standard": "4.1.0",
+    "eslint-plugin-promise": "6.0.0",
     "husky": "4.3.8",
     "lint-staged": "12.3.3",
     "mocha": "9.2.0",
+    "mongoose": "6.2.0",
     "mongoose-text-search": "0.0.2",
     "nyc": "15.1.0",
     "prettier": "2.5.1"

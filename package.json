@@ -23,12 +23,12 @@
   },
   "description": "Mongoose plugin to save old versions of saved documents",
   "devDependencies": {
-    "@babel/cli": "7.16.8",
-    "@babel/core": "7.16.12",
-    "@babel/eslint-parser": "7.16.5",
+    "@babel/cli": "7.17.0",
+    "@babel/core": "7.17.0",
+    "@babel/eslint-parser": "7.17.0",
     "@babel/eslint-plugin": "7.16.5",
     "@babel/preset-env": "7.16.11",
-    "@babel/register": "7.16.9",
+    "@babel/register": "7.17.0",
     "@trejgun/eslint-config": "0.1.7",
     "babel-plugin-istanbul": "6.1.1",
     "eslint": "7.32.0",
@@ -62,7 +62,7 @@
   "module": "./src/index.js",
   "name": "@trejgun/mongoose-versions",
   "peerDependencies": {
-    "mongoose": "6.1.8"
+    "mongoose": "6.2.0"
   },
   "repository": {
     "type": "git",

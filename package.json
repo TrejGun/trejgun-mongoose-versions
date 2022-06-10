@@ -37,13 +37,13 @@
     "eslint-config-standard": "17.0.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-mocha": "10.0.5",
-    "eslint-plugin-n": "15.2.1",
+    "eslint-plugin-n": "15.2.2",
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-promise": "6.0.0",
     "husky": "4.3.8",
-    "lint-staged": "13.0.0",
+    "lint-staged": "13.0.1",
     "mocha": "10.0.0",
-    "mongoose": "6.3.5",
+    "mongoose": "6.3.6",
     "mongoose-text-search": "0.0.2",
     "nyc": "15.1.0",
     "prettier": "2.6.2"
@@ -63,7 +63,7 @@
   "module": "./src/index.js",
   "name": "@trejgun/mongoose-versions",
   "peerDependencies": {
-    "mongoose": "6.3.5"
+    "mongoose": "6.3.6"
   },
   "repository": {
     "type": "git",

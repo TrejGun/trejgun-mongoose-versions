@@ -25,28 +25,28 @@
   "description": "Mongoose plugin to save old versions of saved documents",
   "devDependencies": {
     "@babel/cli": "7.17.10",
-    "@babel/core": "7.18.2",
+    "@babel/core": "7.18.5",
     "@babel/eslint-parser": "7.18.2",
     "@babel/eslint-plugin": "7.17.7",
     "@babel/preset-env": "7.18.2",
     "@babel/register": "7.17.7",
     "@gemunion/eslint-config": "2.0.1",
     "babel-plugin-istanbul": "6.1.1",
-    "eslint": "8.17.0",
+    "eslint": "8.18.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-config-standard": "17.0.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-mocha": "10.0.5",
-    "eslint-plugin-n": "15.2.2",
+    "eslint-plugin-n": "15.2.3",
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-promise": "6.0.0",
     "husky": "4.3.8",
-    "lint-staged": "13.0.1",
+    "lint-staged": "13.0.2",
     "mocha": "10.0.0",
-    "mongoose": "6.3.6",
+    "mongoose": "6.4.0",
     "mongoose-text-search": "0.0.2",
     "nyc": "15.1.0",
-    "prettier": "2.6.2"
+    "prettier": "2.7.1"
   },
   "files": [
     "dist/*",
@@ -63,7 +63,7 @@
   "module": "./src/index.js",
   "name": "@trejgun/mongoose-versions",
   "peerDependencies": {
-    "mongoose": "6.3.6"
+    "mongoose": "6.4.0"
   },
   "repository": {
     "type": "git",

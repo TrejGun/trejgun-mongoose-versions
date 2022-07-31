@@ -30,7 +30,7 @@
     "@babel/eslint-plugin": "7.17.7",
     "@babel/preset-env": "7.18.9",
     "@babel/register": "7.18.9",
-    "@gemunion/eslint-config": "2.0.1",
+    "@gemunion/eslint-config": "2.0.5",
     "babel-plugin-istanbul": "6.1.1",
     "eslint": "8.20.0",
     "eslint-config-prettier": "8.5.0",
@@ -43,7 +43,7 @@
     "husky": "4.3.8",
     "lint-staged": "13.0.3",
     "mocha": "10.0.0",
-    "mongoose": "6.4.6",
+    "mongoose": "6.5.0",
     "mongoose-text-search": "0.0.2",
     "nyc": "15.1.0",
     "prettier": "2.7.1"
@@ -63,7 +63,7 @@
   "module": "./src/index.js",
   "name": "@trejgun/mongoose-versions",
   "peerDependencies": {
-    "mongoose": "6.4.6"
+    "mongoose": "6.5.0"
   },
   "repository": {
     "type": "git",

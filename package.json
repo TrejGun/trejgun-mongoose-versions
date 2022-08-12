@@ -43,7 +43,7 @@
     "husky": "4.3.8",
     "lint-staged": "13.0.3",
     "mocha": "10.0.0",
-    "mongoose": "6.5.1",
+    "mongoose": "6.5.2",
     "mongoose-text-search": "0.0.2",
     "nyc": "15.1.0",
     "prettier": "2.7.1"
@@ -63,7 +63,7 @@
   "module": "./src/index.js",
   "name": "@trejgun/mongoose-versions",
   "peerDependencies": {
-    "mongoose": "6.5.1"
+    "mongoose": "6.5.2"
   },
   "repository": {
     "type": "git",
